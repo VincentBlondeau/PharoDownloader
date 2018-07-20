@@ -25,5 +25,5 @@ BaselineOfPharoDownloader >> baseline: spec [
 			spec
 				package: #PharoDownloader with: [ spec requires: #('OSProcess' 'ProcessWrapper') ];
 				package: #'PharoDownloader-Tests' with: [ spec requires: #(#PharoDownloader) ].
-			spec group: 'Default' with: #(#'PharoLauncher-Download' #'PharoLauncher-Tests-Download') ]
+			spec group: 'Default' with: #(#'PharoDownloader' #'PharoDownloader-Tests') ]
 ]
